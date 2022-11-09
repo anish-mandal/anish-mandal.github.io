@@ -40,5 +40,4 @@ next-env.d.ts
 
 # yarn
 .yarn
-yarn.lock
 .pnp.*
