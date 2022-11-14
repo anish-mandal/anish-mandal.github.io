@@ -49,7 +49,11 @@ export default function Home() {
           Hi there 👋, I am <span className="font-script">Anish Mandal</span>. I
           am a student (👦) and developer (👨‍💻) based in India (🇮🇳). I am
           currently working at{" "}
-          <a href="https://tezucka.xyz" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/company/tezucka-tech"
+            target="_blank"
+            rel="noreferrer"
+          >
             Tezucka Tech
           </a>
           . I aspire to be a software developer. Currently only having only 1 or
