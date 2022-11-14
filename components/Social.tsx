@@ -16,12 +16,15 @@ export default function Social(props: SocialProps) {
       rel="noreferrer"
       className="after:hidden m-5"
     >
-      <Image
-        src={props.image}
-        height={props.height}
-        width={props.width}
-        alt={props.alt}
-      ></Image>
+      <picture>
+        <source srcSet={props.image} type="image/svg" />
+        <img
+          src={props.image}
+          height={props.height}
+          width={props.width}
+          alt={props.alt}
+        ></img>
+      </picture>
     </a>
   );
 }

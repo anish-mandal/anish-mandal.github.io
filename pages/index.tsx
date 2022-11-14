@@ -5,7 +5,6 @@ import { ProjectProps } from "../components/Project";
 import { SocialProps } from "../components/Social";
 import { Gradient } from "../utils/Gradient";
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
 
 export default function Home() {
@@ -35,14 +34,17 @@ export default function Home() {
 
       {/* Information */}
       <div className="w-full h-screen flex justify-center items-center flex-col relative">
-        <Image
-          src="/logo.svg"
-          alt="Logo"
-          height={30}
-          width={30}
-          className="absolute top-5 left-5"
-          aria-hidden
-        />
+        <picture>
+          <source srcSet="/logo.svg" type="image/svg" />
+          <img
+            src="/logo.svg"
+            alt="Logo"
+            height={30}
+            width={30}
+            className="absolute top-5 left-5"
+            aria-hidden
+          />
+        </picture>
         <p className="m-5 sm:w-3/6 font-inter sm:text-2xl text-center">
           Hi there 👋, I am <span className="font-script">Anish Mandal</span>. I
           am a student (👦) and developer (👨‍💻) based in India (🇮🇳). I am
