@@ -1,0 +1,30 @@
+[
+  {
+    "link": "https://twitter.com/anishsay",
+    "image": "/twitter.svg",
+    "alt": "My Twitter",
+    "height": 20,
+    "width": 20
+  },
+  {
+    "link": "https://instagram.com/_anish_mandal_",
+    "image": "/instagram.svg",
+    "alt": "My Instagram",
+    "height": 20,
+    "width": 20
+  },
+  {
+    "link": "https://www.linkedin.com/in/anishmandal/",
+    "image": "/linkedin.svg",
+    "alt": "My Linkedin",
+    "height": 20,
+    "width": 20
+  },
+  {
+    "link": "https://github.com/anish-mandal",
+    "image": "/github.svg",
+    "alt": "My Github",
+    "height": 20,
+    "width": 20
+  }
+]

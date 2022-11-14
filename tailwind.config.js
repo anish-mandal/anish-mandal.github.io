@@ -6,7 +6,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        script: ["Petit Formal Script", "cursive"],
+        inter: ["Inter", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
