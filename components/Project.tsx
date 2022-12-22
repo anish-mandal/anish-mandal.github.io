@@ -7,14 +7,10 @@ export interface ProjectProps {
 }
 
 export default function Project(props: ProjectProps) {
-  function handleClick() {
-    window.open(props.link, "_blank");
-  }
-
   return (
-    <div
-      className="w-full h-28 flex border-t-2 border-b-2 font-inter justify-between items-center mt-3 mb-3 cursor-pointer group"
-      onClick={handleClick}
+    <a
+      className="w-full h-28 flex border-t-2 border-b-2 font-inter justify-between items-center mt-3 mb-3 cursor-pointer group no-underline"
+      href={props.link}
     >
       <div className="flex flex-col">
         <span className="text-xl font-bold font-script sm:text-2xl">
@@ -30,6 +26,6 @@ export default function Project(props: ProjectProps) {
         width={50}
         className="group-hover:-rotate-45 transition-transform"
       />
-    </div>
+    </a>
   );
 }
