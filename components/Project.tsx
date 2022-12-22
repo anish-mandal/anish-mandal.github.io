@@ -11,11 +11,8 @@ export default function Project(props: ProjectProps) {
     <a
       className="w-full h-28 flex border-t-2 border-b-2 font-inter justify-between items-center mt-3 mb-3 cursor-pointer group no-underline"
       href={props.link}
-<<<<<<< HEAD
       target="_blank"
       rel="noreferrer"
-=======
->>>>>>> 832f590f7fe8ee059d9d871b8c9d0e9b37b90b5b
     >
       <div className="flex flex-col">
         <span className="text-xl font-bold font-script sm:text-2xl">
