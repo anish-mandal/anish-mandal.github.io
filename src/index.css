@@ -1,0 +1,9 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1,2&f[]=satoshi@1,2&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply underline hover:underline-offset-4;
+}
